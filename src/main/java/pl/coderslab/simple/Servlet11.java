@@ -1,5 +1,7 @@
 package pl.coderslab.simple;
 
+import org.apache.log4j.lf5.util.ResourceUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
