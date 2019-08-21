@@ -56,6 +56,6 @@ public class Form4 extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        response.sendRedirect("index_3.html");
+        response.sendRedirect("form4.html");
     }
 }
