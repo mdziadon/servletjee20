@@ -7,6 +7,10 @@
 <body>
 <form method="post">
 
+    <c:if test="${added == 'true'}">
+        <div>Książki dodane</div>
+    </c:if>
+
     <c:forEach begin="0" end="4" varStatus="status">
         <h3>Książka ${status.count}</h3>
         <label>Tytuł:
