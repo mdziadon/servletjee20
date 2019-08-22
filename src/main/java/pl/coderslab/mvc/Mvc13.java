@@ -21,10 +21,12 @@ public class Mvc13 extends HttpServlet {
 
         getServletContext().getRequestDispatcher("/result.jsp")
                 .forward(request, response);
+
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         getServletContext().getRequestDispatcher("/jsp3.jsp")
                 .forward(request, response);
+
     }
 }

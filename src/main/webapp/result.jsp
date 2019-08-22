@@ -7,5 +7,6 @@
     <div>Book title: ${book.title}</div>
     <div>Book author: ${book.author}</div>
     <div>Book isbn: ${book.isbn}</div>
+
 </body>
 </html>
